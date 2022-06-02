@@ -12,6 +12,11 @@
 .img-size{
     border-radius: 20px;
 }
+.img-size-naan{
+    width: 300px;
+    height: 204.5px;
+    object-fit: cover;
+}
 .text{
     color: white;
     position: absolute;
