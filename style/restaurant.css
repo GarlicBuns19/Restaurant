@@ -1,6 +1,18 @@
-.img-size{
+#Menu .img-size{
     width: 280px;
     height: 200px;
     object-fit: cover;
     padding: 10px;
+}
+#Menu .img{
+    position: relative;
+    transition: 0.7s;
+}
+#Menu .img:hover{
+    opacity: 50%;
+}
+#Menu .img+p{
+    position: absolute;
+    color: white;
+    padding-left: 90px;
 }
