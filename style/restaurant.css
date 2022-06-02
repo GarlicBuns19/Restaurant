@@ -13,8 +13,9 @@
     border-radius: 20px;
 }
 .img-size-naan{
-    width: 300px;
+    width: 341px;
     height: 204.5px;
+    /* or aspect ratio 1 */
     object-fit: cover;
 }
 .text{
