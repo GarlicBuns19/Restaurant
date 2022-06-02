@@ -1,3 +1,9 @@
+body{
+    background-color:rgb(220, 218, 216)
+}
+#Nav .nav-color{
+    background-color:rgb(220, 218, 216)
+}
 #Home{
     background-image: url(http://premieredesign.co.za/wp-content/uploads/2018/05/Premiere-Design-Studio-THE-ROCK-AND-CARNELIAN-AT-THE-ROCK.jpg);
     background-attachment: fixed;
