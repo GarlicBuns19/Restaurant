@@ -13,7 +13,7 @@
 </head>
 <body>
     <section id="Nav">
-        <nav class="navbar navbar-expand-lg bg-secondary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Restaurant</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,37 +57,34 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam delectus impedit asperiores quos id iusto aliquid architecto dignissimos amet est dicta voluptates, nam nisi error placeat. Officia aperiam rem sapiente pariatur. Cumque, adipisci sequi? Est molestias quia minima accusantium explicabo reprehenderit praesentium culpa earum, laboriosam soluta porro aperiam vel ullam.</p>
     </section>
     <section id="Menu">
-        <div class="container bg-dark">
+        <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <img src="./images/BraaiChicken.jpg" alt="" class="img-fluid img-size img">
-                    <p>Eat Plz plz eat</p>
-                </div>
-                <div class="col-md-3">
-                    <img src="./images/Chops.jpg" alt="" class="img-fluid img-size img">
-                </div>
-                <div class="col-md-3">
-                    <img src="./images/Sasuage.jpg" alt="" class="img-fluid img-size img">
-                </div>
-                <div class="col-md-3">
-                    <img src="./images/WholeChicken.jpeg" alt="" class="img-fluid img-size img">
-                </div>
-                <div class="col-md-3">
-                    <img src="./images/Gatbasy.jpg" alt="" class="img-fluid img-size img">
-                </div>
-                <div class="col-md-3">
-                    <img src="./images/Roll1.jpg" alt="" class="img-fluid img-size img">
-                </div>
-                <div class="col-md-3">
-                    <img src="./images/Roll2.jpg" alt="" class="img-fluid img-size img">
-                </div>
-                <div class="col-md-3">
-                    <img src="./images/GarlicNaan.jpg" alt="" class="img-fluid img-size img">
+                    <div class="img">
+                        <img src="./images/BraaiChicken.jpg" alt=""
+                        class="img-fluid img-size">
+                        <div class="text">
+                            <p>Hello</p>
+                            <p>Hello</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <section id="Order">
+        <div class="row my-2">
+            <label for="subject" class="col-md-2 col-form-label-lg">Food </label>
+            <div class="col-8">
+                <select name="subject" id="subject" class="form-select">
+                    <option value="html5" selected>None</option>
+                    <option value="html5">Chicken</option>
+                    <option value="css3">Chops</option>
+                    <option value="javascript">Rolls</option>
+                    <option value="bottstrap">Gatbasy</option>
+                </select>
+            </div>
+        </div>
     </section>
     <section id="Contact">
     </section>
