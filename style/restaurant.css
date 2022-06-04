@@ -45,3 +45,7 @@ body{
 .img:hover .text{
     opacity: 75%;
 }
+
+#Order #sumbit_button{
+    border-radius: 30px;
+}
