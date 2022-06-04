@@ -12,6 +12,9 @@ body{
     width: 100%;
     color: white;
 }
+#Home h1{
+    padding-top: 20px;
+}
 .img{
     position: relative;
 }
